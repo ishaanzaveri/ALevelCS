@@ -2,7 +2,7 @@
     Inherits LibItem
     Private Genre As String
     Public Sub New(Genre As String)
-        MyBase.New
+        MyBase.New()
         Me.Genre = Genre
     End Sub
     Sub SetGenre(Genre As String)

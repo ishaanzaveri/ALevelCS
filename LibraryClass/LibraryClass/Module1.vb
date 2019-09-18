@@ -16,7 +16,7 @@
             Console.WriteLine("Enter Title")
             Title = Console.ReadLine()
             Console.WriteLine("Enter Reference Number")
-            RefNo = Console.ReadLine())
+            RefNo = Console.ReadLine()
             Console.WriteLine("Enter Return Date")
             ReturnDate = Console.ReadLine()
             Console.WriteLine("Enter is Loaned")

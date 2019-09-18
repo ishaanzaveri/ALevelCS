@@ -4,9 +4,9 @@
     Private RefNo As String
     Private Loaned As Boolean
     Private ReturnDate As Date
-    ' Public Sub New()
+    Public Sub New()
 
-    'End Sub
+    End Sub
     Public Sub New(Creator As String, Title As String, RefNo As String, Loaned As Boolean, ReturnDate As Date)
         Me.Creator = Creator
         Me.Title = Title
