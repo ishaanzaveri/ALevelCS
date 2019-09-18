@@ -3,20 +3,25 @@
     Sub Main()
         Dim book(1) As Books
         Dim NextBYes As Boolean
+        Dim Creator As String
+        Dim Title As String
+        Dim RefNo As String
+        Dim Loaned As Boolean
+        Dim ReturnDate As Date
         For i = 0 To 1
             Console.WriteLine("Enter if the next person is ready to borrow")
             NextBYes = Console.ReadLine()
-            book(i) = New Books(NextBYes)
             Console.WriteLine("Enter Author")
-            book(i).SetCreator(Console.ReadLine())
+            Creator = Console.ReadLine()
             Console.WriteLine("Enter Title")
-            book(i).SetTitle(Console.ReadLine())
+            Title = Console.ReadLine()
             Console.WriteLine("Enter Reference Number")
-            book(i).SetRefNo(Console.ReadLine())
+            RefNo = Console.ReadLine())
             Console.WriteLine("Enter Return Date")
-            book(i).SetReturnDate(Console.ReadLine())
+            ReturnDate = Console.ReadLine()
             Console.WriteLine("Enter is Loaned")
-            book(i).SetLoaned(Console.ReadLine())
+            Loaned = Console.ReadLine()
+            book(i) = New Books(NextBYes, Creator, Title, RefNo, Loaned, ReturnDate)
         Next
         For i = 0 To 1
             book(i).Printer()

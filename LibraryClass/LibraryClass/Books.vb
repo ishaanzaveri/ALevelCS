@@ -1,8 +1,8 @@
 ﻿Public Class Books
     Inherits LibItem
     Private NextBYes As Boolean
-    Public Sub New(NextBYes As Boolean)
-        MyBase.New()
+    Public Sub New(NextBYes As Boolean, Creator As String, Title As String, RefNo As String, Loaned As Boolean, ReturnDate As Date)
+        MyBase.New(Creator, Title, RefNo, Loaned, ReturnDate)
         Me.NextBYes = NextBYes
     End Sub
     Sub SetNextBYes(NextBYes As Boolean)
