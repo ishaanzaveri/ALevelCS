@@ -11,4 +11,8 @@
     Function GetNextBYes()
         Return Me.NextBYes
     End Function
+    Public Overrides Sub Print()
+        MyBase.Print()
+        Console.WriteLine(NextBYes)
+    End Sub
 End Class

@@ -44,4 +44,11 @@
     Function GetReturnDate()
         Return Me.ReturnDate
     End Function
+    Public Overridable Sub Print()
+        Console.WriteLine(Creator)
+        Console.WriteLine(Title)
+        Console.WriteLine(RefNo)
+        Console.WriteLine(Loaned)
+        Console.WriteLine(ReturnDate)
+    End Sub
 End Class

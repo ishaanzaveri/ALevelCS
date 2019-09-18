@@ -11,4 +11,8 @@
     Function GetGenre()
         Return Me.Genre
     End Function
+    Public Overrides Sub Print()
+        MyBase.Print()
+        Console.WriteLine(Genre)
+    End Sub
 End Class
