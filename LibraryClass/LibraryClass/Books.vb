@@ -13,6 +13,6 @@
     End Function
     Public Overrides Sub Printer()
         MyBase.Printer()
-        Console.WriteLine(NextBYes)
+        Console.WriteLine("Has the next borrower requested: " & NextBYes)
     End Sub
 End Class

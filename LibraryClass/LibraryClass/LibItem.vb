@@ -45,10 +45,10 @@
         Return Me.ReturnDate
     End Function
     Public Overridable Sub Printer()
-        Console.WriteLine(Creator)
-        Console.WriteLine(Title)
-        Console.WriteLine(RefNo)
-        Console.WriteLine(Loaned)
-        Console.WriteLine(ReturnDate)
+        Console.WriteLine("Creator: " & Creator)
+        Console.WriteLine("Title: " & Title)
+        Console.WriteLine("Reference Number: " & RefNo)
+        Console.WriteLine("is Loaned: " & Loaned)
+        Console.WriteLine("Return Date: " & ReturnDate)
     End Sub
 End Class
