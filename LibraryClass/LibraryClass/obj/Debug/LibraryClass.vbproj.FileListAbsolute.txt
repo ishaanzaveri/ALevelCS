@@ -1,0 +1,11 @@
+C:\Users\Ishaan\Desktop\A Levels\Computer Science\ALevelCS\LibraryClass\LibraryClass\bin\Debug\LibraryClass.exe.config
+C:\Users\Ishaan\Desktop\A Levels\Computer Science\ALevelCS\LibraryClass\LibraryClass\bin\Debug\LibraryClass.exe
+C:\Users\Ishaan\Desktop\A Levels\Computer Science\ALevelCS\LibraryClass\LibraryClass\bin\Debug\LibraryClass.pdb
+C:\Users\Ishaan\Desktop\A Levels\Computer Science\ALevelCS\LibraryClass\LibraryClass\bin\Debug\LibraryClass.xml
+C:\Users\Ishaan\Desktop\A Levels\Computer Science\ALevelCS\LibraryClass\LibraryClass\obj\Debug\LibraryClass.vbprojAssemblyReference.cache
+C:\Users\Ishaan\Desktop\A Levels\Computer Science\ALevelCS\LibraryClass\LibraryClass\obj\Debug\LibraryClass.Resources.resources
+C:\Users\Ishaan\Desktop\A Levels\Computer Science\ALevelCS\LibraryClass\LibraryClass\obj\Debug\LibraryClass.vbproj.GenerateResource.cache
+C:\Users\Ishaan\Desktop\A Levels\Computer Science\ALevelCS\LibraryClass\LibraryClass\obj\Debug\LibraryClass.vbproj.CoreCompileInputs.cache
+C:\Users\Ishaan\Desktop\A Levels\Computer Science\ALevelCS\LibraryClass\LibraryClass\obj\Debug\LibraryClass.exe
+C:\Users\Ishaan\Desktop\A Levels\Computer Science\ALevelCS\LibraryClass\LibraryClass\obj\Debug\LibraryClass.xml
+C:\Users\Ishaan\Desktop\A Levels\Computer Science\ALevelCS\LibraryClass\LibraryClass\obj\Debug\LibraryClass.pdb

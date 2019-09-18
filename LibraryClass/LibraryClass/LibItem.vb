@@ -44,7 +44,7 @@
     Function GetReturnDate()
         Return Me.ReturnDate
     End Function
-    Public Overridable Sub Print()
+    Public Overridable Sub Printer()
         Console.WriteLine(Creator)
         Console.WriteLine(Title)
         Console.WriteLine(RefNo)
