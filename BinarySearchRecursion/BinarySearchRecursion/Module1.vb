@@ -1,14 +1,15 @@
 ﻿Module Module1
     Public ArrNum(9) As Integer
+    Public found = False
     Sub BinarySearch(Number As Integer, Start As Integer, EndL As Integer)
-        Dim found = False
-        If Number = ArrNum(CInt((Start + EndL) / 2)) Then
+        Dim mid = CInt((Start + EndL) / 2)
+        If Number = ArrNum(mid) Then
             Console.WriteLine("found at " & (Start + EndL) / 2)
             found = True
-        ElseIf Number > ArrNum(CInt((Start + EndL) / 2)) Then
-            BinarySearch(Number, Start, (CInt((Start + EndL) / 2)) - 1)
+        ElseIf Number < ArrNum(mid) Then
+            BinarySearch(Number, Start, mid - 1)
         Else
-            BinarySearch(Number, (CInt((Start + EndL) / 2)) + 1, EndL)
+            BinarySearch(Number, mid + 1, EndL)
         End If
         'Return found
     End Sub
