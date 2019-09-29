@@ -1,10 +1,10 @@
 ﻿Public Class Stack
-    Private Arr(19) As Integer
+    Private Arr(19) As String
     Private TOS As Integer
     Public Sub New()
         TOS = -1
         For i = 0 To 19
-            Arr(i) = 0
+            Arr(i) = " "
         Next
     End Sub
     Public Function getTOS() As Integer
@@ -17,7 +17,7 @@
             Return False
         End If
     End Function
-    Public Sub Push(n As Integer)
+    Public Sub Push(n As String)
         If isStackFull() Then
             Console.WriteLine("Error Stack is full")
         Else
