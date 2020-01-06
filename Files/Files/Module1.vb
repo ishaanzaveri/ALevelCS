@@ -21,7 +21,7 @@ Module Module1
         Dim stdFileR As BinaryReader
         Dim stdFileW As BinaryWriter
         Dim stdFile As FileStream
-        stdFile = New FileStream("students.dat", FileMode.Create)
+        stdFile = New FileStream("student.dat", FileMode.Create)
         stdFileW = New BinaryWriter(stdFile)
         For i = 1 To 5
             stdFileW.Write(stdArr(i).FName)
@@ -30,5 +30,11 @@ Module Module1
         Next
         stdFileW.Close()
         stdFile.Close()
+        stdFile = New FileStream("students.dat", FileMode.Open)
+        stdFileR = New BinaryReader(stdFile)
+        While stdFile.Position < stdFile.Length
+            Console.WriteLine(stdFileR.ReadString())
+        End While
+        Console.ReadLine()
     End Sub
 End Module
