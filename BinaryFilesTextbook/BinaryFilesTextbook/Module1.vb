@@ -33,6 +33,20 @@ Module Module1
         End If
         Return address
     End Function
+    Sub CreateFile()
+        Dim file As FileStream
+        Dim filew As BinaryWriter
+        file = New FileStream("Customers.dat", FileMode.Create)
+        filew = New BinaryWriter(file)
+        For i = 0 To 999
+            filew.Write(CustomerData(i).ID)
+            filew.Write(CustomerData(i).Name)
+            filew.Write(CustomerData(i).TelephoneNo)
+            filew.Write(CustomerData(i).OrderValue)
+        Next
+        filew.Close()
+        file.Close()
+    End Sub
     Sub Main()
 
     End Sub
